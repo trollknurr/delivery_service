@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  backend:
+    build:
+      context: .
+      args:
+        DEV_DEPS: 1
+    command: python -m delivery_box
+    volumes:
+      - .:/app
+    

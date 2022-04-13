@@ -1,0 +1,11 @@
+env
+.vscode
+__pycache__
+public
+.DS_Store
+.DS_Store?
+.idea
+tmp
+*.pyc
+.pytest_cache
+.mypy_cache
